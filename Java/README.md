@@ -1,2 +1,3 @@
-# Studies
-Training materials and ideas
+# Study materials on Java
+Training materials and ideas on Java
+
