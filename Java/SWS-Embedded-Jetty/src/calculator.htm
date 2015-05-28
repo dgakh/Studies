@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta charset="utf-8">
+<title>Calculator</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+    $("button").click(function(){
+
+	var url = $("#server").val() + 
+		"?a=" + $("#val_a").val() +
+		"&b=" + $("#val_b").val() +
+		"&op=" + encodeURIComponent($("#operation").val());
+
+	$.ajax({
+		url: url,
+		success:function(json){
+			if (json.error == 0)
+				$("#result").val(json.result);
+			else
+				$("#result").val("Error");
+		},
+		error:function(){
+			$("#result").val("Error");
+		}
+	});
+
+    });
+});
+</script>
+
+</head>
+
+<body>
+
+<h1>Calculator</h1>
+
+<span><b>Web service: </b></span>
+<br/>
+<input type="text" id="server" value="http://localhost:8080/func" />
+<br/>
+<br/>
+
+<span><b>Formula: </b></span>
+<br/>
+
+<input type="text" id="val_a" value="8.78" />
+<br/>
+
+<select id="operation">
+  <option>&#x2B</option>
+  <option>&#x2D</option>
+  <option>&#x2A</option>
+  <option>&#x2F</option>
+</select>
+<br/>
+
+<input type="text" id="val_b" value="4.15" />
+
+<br/>
+
+<button>Calculate</button>
+<br/>
+<br/>
+
+<span><b>Result: </b></span>
+<br/>
+
+<input type="text" id="result" />
+
+</body>
+</html>
+
