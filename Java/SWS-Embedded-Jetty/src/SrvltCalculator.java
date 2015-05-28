@@ -63,13 +63,13 @@ public class SrvltCalculator extends HttpServlet {
 			
 			try {
 				
-				if (str_op.endsWith("+")) result = functionSum( value_a, value_b );
+				if (str_op.equals("+")) result = functionSum( value_a, value_b );
 				else
-					if (str_op.endsWith("-")) result = functionDif( value_a, value_b );
+					if (str_op.equals("-")) result = functionDif( value_a, value_b );
 					else
-						if (str_op.endsWith("*")) result = functionMul( value_a, value_b );
+						if (str_op.equals("*")) result = functionMul( value_a, value_b );
 						else
-							if (str_op.endsWith("/") && (value_b!=0)) result = functionDiv( value_a, value_b );
+							if (str_op.equals("/") && (value_b!=0)) result = functionDiv( value_a, value_b );
 							else
 								noError = false;
 			}
@@ -91,6 +91,7 @@ public class SrvltCalculator extends HttpServlet {
 		String reply = "{\"error\":0,\"result\":" + Double.toString(result) + "}";
 		response.getOutputStream().write( reply.getBytes("UTF-8") );
 		response.setContentType("application/json; charset=UTF-8");
+		response.setHeader("Access-Control-Allow-Origin", "*");
 		response.setStatus( HttpServletResponse.SC_OK );
 	}		
 	
@@ -98,6 +99,7 @@ public class SrvltCalculator extends HttpServlet {
 		String reply = "{\"error\":1}";
 		response.getOutputStream().write( reply.getBytes("UTF-8") );
 		response.setContentType("application/json; charset=UTF-8");
+		response.setHeader("Access-Control-Allow-Origin", "*");
 		response.setStatus( HttpServletResponse.SC_OK );
 	}
 	
