@@ -1,0 +1,166 @@
+Run as x86
+>>> Data Structure: Array of Objects <<<
+Initialization: time: 00:00:01.6221119  memory: 280000144
+Write Length: 00:00:16.8749858
+Write Lines: 00:00:16.6069385
+Write Nodes: 00:00:25.9955749
+Write All: 00:00:27.0294408
+Read Length: 00:00:11.1094851
+Read Lines: 00:00:12.0892880
+Read Nodes: 00:00:11.8245472
+Read All: 00:00:16.1348833
+
+>>> Data Structure: Array of Structs <<<
+Initialization: time: 00:00:00.0004156  memory: 160000016
+Write Length: 00:00:09.8604784
+Write Lines: 00:00:09.7971559
+Write Nodes: 00:00:10.2142643
+Write All: 00:00:16.7154139
+Read Length: 00:00:07.4112819
+Read Lines: 00:00:08.8147111
+Read Nodes: 00:00:07.8877830
+Read All: 00:00:13.5351287
+
+>>> Data Structure: Array of Fields <<<
+Initialization: time: 00:00:00.0004388  memory: 130000064
+Write Length: 00:00:05.2673862
+Write Lines: 00:00:03.4567768
+Write Nodes: 00:00:07.4710676
+Write All: 00:00:13.8661469
+Read Length: 00:00:03.2707858
+Read Lines: 00:00:04.9722981
+Read Nodes: 00:00:07.3669123
+Read All: 00:00:11.9394400
+
+>>> Data Structure: Array of Objects <<<
+Initialization: time: 00:00:01.6478842  memory: 280000076
+Write Length: 00:00:15.7607510
+Write Lines: 00:00:15.7790956
+Write Nodes: 00:00:26.0286490
+Write All: 00:00:26.4366385
+Read Length: 00:00:11.0786549
+Read Lines: 00:00:11.9888678
+Read Nodes: 00:00:11.7218540
+Read All: 00:00:15.9368577
+
+>>> Data Structure: Array of Structs <<<
+Initialization: time: 00:00:00.0005803  memory: 160000016
+Write Length: 00:00:09.8579052
+Write Lines: 00:00:09.6965514
+Write Nodes: 00:00:10.2590438
+Write All: 00:00:16.8146193
+Read Length: 00:00:07.7052563
+Read Lines: 00:00:09.2124139
+Read Nodes: 00:00:08.2813811
+Read All: 00:00:13.6305064
+
+>>> Data Structure: Array of Fields <<<
+Initialization: time: 00:00:00.0003004  memory: 130000064
+Write Length: 00:00:05.2821156
+Write Lines: 00:00:03.3519675
+Write Nodes: 00:00:07.5961633
+Write All: 00:00:14.1779369
+Read Length: 00:00:03.2811580
+Read Lines: 00:00:04.9724750
+Read Nodes: 00:00:07.5098703
+Read All: 00:00:12.2097570
+
+>>> Data Structure: Array of Objects <<<
+Initialization: time: 00:00:01.6602443  memory: 280000076
+Write Length: 00:00:15.7634414
+Write Lines: 00:00:15.8079102
+Write Nodes: 00:00:26.2810118
+Write All: 00:00:26.7124287
+Read Length: 00:00:11.1085602
+Read Lines: 00:00:11.9141480
+Read Nodes: 00:00:11.7734599
+Read All: 00:00:15.9650623
+
+>>> Data Structure: Array of Structs <<<
+Initialization: time: 00:00:00.0006037  memory: 160000016
+Write Length: 00:00:09.8464897
+Write Lines: 00:00:09.8772028
+Write Nodes: 00:00:10.0859262
+Write All: 00:00:16.6071316
+Read Length: 00:00:07.3889502
+Read Lines: 00:00:08.8128697
+Read Nodes: 00:00:08.0337632
+Read All: 00:00:13.4969274
+
+>>> Data Structure: Array of Fields <<<
+Initialization: time: 00:00:00.0008915  memory: 130000064
+Write Length: 00:00:05.3877474
+Write Lines: 00:00:03.4409525
+Write Nodes: 00:00:07.5331840
+Write All: 00:00:14.0001226
+Read Length: 00:00:03.2566509
+Read Lines: 00:00:04.9863706
+Read Nodes: 00:00:07.4313733
+Read All: 00:00:12.0002083
+
+>>> Data Structure: Array of Objects <<<
+Initialization: time: 00:00:01.6704047  memory: 280000076
+Write Length: 00:00:15.8138466
+Write Lines: 00:00:15.8585615
+Write Nodes: 00:00:26.3382413
+Write All: 00:00:26.6883280
+Read Length: 00:00:11.2426957
+Read Lines: 00:00:12.1233968
+Read Nodes: 00:00:11.8755434
+Read All: 00:00:16.1407120
+
+>>> Data Structure: Array of Structs <<<
+Initialization: time: 00:00:00.0007240  memory: 160000016
+Write Length: 00:00:09.8985750
+Write Lines: 00:00:09.7303651
+Write Nodes: 00:00:10.3073776
+Write All: 00:00:16.9045771
+Read Length: 00:00:07.7211518
+Read Lines: 00:00:09.0186963
+Read Nodes: 00:00:08.2214331
+Read All: 00:00:13.5406148
+
+>>> Data Structure: Array of Fields <<<
+Initialization: time: 00:00:00.0006409  memory: 130000064
+Write Length: 00:00:05.3081353
+Write Lines: 00:00:03.4470344
+Write Nodes: 00:00:07.6762426
+Write All: 00:00:14.0271940
+Read Length: 00:00:03.2955276
+Read Lines: 00:00:05.1751003
+Read Nodes: 00:00:07.6156402
+Read All: 00:00:12.6749113
+
+>>> Data Structure: Array of Objects <<<
+Initialization: time: 00:00:01.6649261  memory: 280000076
+Write Length: 00:00:16.1071765
+Write Lines: 00:00:16.6084136
+Write Nodes: 00:00:26.1221273
+Write All: 00:00:26.2392482
+Read Length: 00:00:11.0629104
+Read Lines: 00:00:12.0473931
+Read Nodes: 00:00:11.7714106
+Read All: 00:00:15.7170964
+
+>>> Data Structure: Array of Structs <<<
+Initialization: time: 00:00:00.0004156  memory: 160000016
+Write Length: 00:00:09.7231191
+Write Lines: 00:00:09.7283516
+Write Nodes: 00:00:10.0801531
+Write All: 00:00:16.3973844
+Read Length: 00:00:07.5861396
+Read Lines: 00:00:08.8094561
+Read Nodes: 00:00:08.0829641
+Read All: 00:00:13.1920700
+
+>>> Data Structure: Array of Fields <<<
+Initialization: time: 00:00:00.0006989  memory: 130000064
+Write Length: 00:00:05.1692909
+Write Lines: 00:00:03.3161852
+Write Nodes: 00:00:07.4617766
+Write All: 00:00:13.7452219
+Read Length: 00:00:03.2166468
+Read Lines: 00:00:04.8798521
+Read Nodes: 00:00:07.2954978
+Read All: 00:00:11.7498225
+

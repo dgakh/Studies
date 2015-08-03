@@ -1,2 +1,2 @@
 # Studies
-Training materials and ideas
+Training materials, studies, ideas
