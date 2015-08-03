@@ -1,4 +1,4 @@
-# Study materials on Java
+# Study materials on CSharp
 Training materials, studies, ideas on CSharp
 
 Contains:
